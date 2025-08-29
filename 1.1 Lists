@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists</title>
+    </head>
+    <body>
+        <h2>1-topshiriq</h2>
+        <h4>Mevalar</h4>
+        <ul>
+            <li>Olma</li>
+            <li>Banan</li>
+            <li>Gilos</li>
+        </ul>
+        <hr>
+
+        <h2>2-topshiriq</h2>
+        <h4>Kun rejasi</h4>
+        <ol type="I">
+            <li>Uyg'onish</li>
+            <li>Nonushta qilish</li>
+            <li>Dars qilish</li>
+            <li>Sport</li>
+        </ol>
+        <hr>
+        
+        <h2>3-topshiriq</h2>
+        <h4>Kompyuter qismlari</h4>
+        <ul>
+            <li>CPU</li>
+            <li>RAM</li>
+            <li>Disk</li>
+            <li>
+                <ul>
+                    <li>HDD</li>
+                    <li>SDD</li>
+                </ul>
+            </li>
+        </ul>
+        
+    </body>
+
+</html>
