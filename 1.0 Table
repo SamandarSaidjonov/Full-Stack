@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+        <style>
+            table{
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                text-align: center;
+                border: 1px solid black;
+                padding: 5px;
+            }
+            tbody tr:nth-child(odd){
+                background-color: white;
+            }
+            tbody tr:nth-child(even){
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption><b>O'quvchilarning olgan baholari</b></caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>F.I.O</th>
+                    <th>Fan</th>
+                    <th>Baho</th>
+                    <th>Izoh</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sameer Saidjanov</td>
+                    <td>Biologiya</td>
+                    <td>4</td>
+                    <td>Yaxshi</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ali Valiyev</td>
+                    <td>Matematika</td>
+                    <td>5</td>
+                    <td>A'lo</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Gulchehra Tursunova</td>
+                    <td>Fizika</td>
+                    <td>3</td>
+                    <td>Qoniqarli</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Jasur Karimov</td>
+                    <td>Informatika</td>
+                    <td>5</td>
+                    <td>A'lo</td>
+                </tr>    
+            </tbody>
+        </table>
+    </body>
+</html>
