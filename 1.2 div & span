@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <style>
+            #info{
+                text-align: center;
+                font-size: 14px;
+            }
+            #main{
+                width: 80%;
+                margin: auto;
+                margin-top: 10px;
+            }
+            .container{
+                display: flex;
+                justify-content: space-between;
+            }
+            .left{
+                width: 50%;
+            }
+            .right{
+                width: 50%;
+            }
+            .span{
+                font-weight: bold;
+                color: black;
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                text-align: center; 
+                border: 1px solid black;
+                padding: 5px;
+            }
+            tbody tr:nth-child(odd){
+                background-color: white;
+            }
+            tbody tr:nth-child(even){
+                background-color: grey;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div id="info"><b>Samandar Saidjonov</b> <br>Junior Data Analyst</div>
+        </header>
+        <div id="main">        
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ish joyi</th>
+                        <th>Lavozim</th>
+                        <th>Ishlagan muddat</th>
+                        <th>Texnologiyalar</th>
+                        <th>Izoh</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Milliard Club</td>
+                        <td>Data Analyst (Intern)</td>
+                        <td>2025-yil fevral, 2025-yil maygacha</td>
+                        <td>Excel, Google Sheets, Python</td>
+                        <td>Ma'lumotlarni tozalash, tahlil qilish va vizualizatsiya qilish. Projectda ishlaganman</td>
+                    </tr>
+                    <tr>
+                        <td>Perfect Food Lab</td>
+                        <td>Data Analyst</td>
+                        <td>2025-yil aprel, hozirgacha</td>
+                        <td>Excel, Google Sheets, Power BI, Python, SQL</td>
+                        <td>Ma'lumotlarni tozalash, tahlil qilish va vizualizatsiya qilish. Kompaniya uchun tg bot tuzganman. ABC, XYZ analizlar qilingan</td>
+                </tbody>
+            </table>
+            <hr>
+                <h4>
+                    Qiziqishlar
+                </h4>
+            <div class="container"> 
+                <div class="left">
+                    <ul >
+                    <li>Dasturlash</li>
+                    <li>Ma'lumotlar tahlili</li>
+                    <li>Ma'lumotlar vizualizatsiyasi</li>
+                    <li>Sun'iy intellekt</li>
+                    <li>Sayohat</li>
+                    <li>Stol tennisi</li>
+                    <li>Shaxmat</li>
+                </ul>
+                </div>
+
+                <div class="right">
+                <p>Men <span class="span">Data Analitika</span> va <span class="span">Data Science</span> sohalariga qiziqaman. Hozirda <span class="span">Mohirdev</span>da <span class="span">Full Stack</span> bo'yicha o'qiyabman. Keyinchalik <span class="span">Data Science</span> kursini boshlamoqchiman </p>
+            </div>
+            </div>
+                
+            
+            
+        </div>
+    </body>
+</html>
