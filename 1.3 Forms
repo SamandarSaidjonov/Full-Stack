@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <form action="info.py" method="GET">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="uname" required> <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required> <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required> <br><br>
+
+            <label for="age">Yoshingiz</label>
+            <input type="number" name="age" id="age" required> <br><br>
+
+            <label for="male">Erkak</label>
+            <input type="radio" name="gender" value="male"> <br>
+
+            <label for="female">Ayol</label>
+            <input type="radio" name="gender" value="female"><br><br>
+
+            <label for="hobby">Qiziqishlar</label>
+            <input type="checkbox" name="hobby" value="sport">Sport
+            <input type="checkbox" name="hobby" value="music">Music
+            <input type="checkbox" name="hobby" value="movies">Movies<br><br>
+
+            <label for="location">Hudud</label>
+            <select name="location" id="location">
+                <option value="tashkent">Toshkent</option>
+                <option value="samarkand">Samarqand</option>
+                <option value="bukhara">Buxoro</option>
+                <option value="fergana">Farg'ona</option>
+                <option value="namangan">Namangan</option>
+                <option value="andijan">Andijon</option>
+                <option value="khorezm">Xorazm</option>
+                <option value="navoi">Navoiy</option>
+            </select><br><br>
+            
+            <label for="comment">Izoh</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea> <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+</html>
