@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">    
+    <style>
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        .portfolio-gallery {
+            display: flex;             
+            justify-content: space-between; 
+            flex-wrap: wrap;           
+            gap: 15px;                 
+        }
+
+        .portfolio-gallery figure {
+            width: 17%;                
+            text-align: center;
+        }
+
+        .portfolio-gallery img {
+            width: 100%;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+
+        figcaption {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>   
+</head>
+
+<body>
+    <header>
+        <h1>Samandar Saidjanov</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="home">
+            <h2>Assalomu aleykum</h2>
+            <p>Men web dasturchiman. Portfolio sahifamga xush kelibsiz</p>
+        </section>
+
+        <section id="about">
+            <h2>Men haqimda</h2>
+            <p>Perfect Food Lab kompaniyasida data analitik bo'lib ishlayman. Full-stack dasturlashga qiziqaman va hozirda mohirdev platformasi orqali o'rganyabman</p>
+            <h3>Qiziqishlarim</h3>
+            <ul>
+                <li>Web dasturlash</li>
+                <li>Data analitika</li>
+                <li>Sun'iy intellekt</li>
+            </ul>
+        </section>
+        
+        <section id="portfolio">
+            <h2>Mening ishlarim</h2>
+            <p>Quyida mening data analitik sifatidagi ba'zi qilgan ishlarim keltirilgan:</p>
+            
+            <div class="portfolio-gallery">
+                <figure>
+                    <figcaption>ABC analiz</figcaption>
+                    <img src="ABC.jpeg" alt="ABC analiz rasmi">
+                </figure>
+
+                <figure>
+                    <figcaption>XYZ analiz</figcaption>
+                    <img src="XYZ.jpeg" alt="XYZ analiz rasmi">
+                </figure>
+
+                <figure>
+                    <figcaption>Korrelyatsiya</figcaption>
+                    <img src="corr.jpg" alt="Korrelyatsiya">
+                </figure>
+
+                <figure>
+                    <figcaption>Ribbon chart</figcaption>
+                    <img src="Ribbon.jpeg" alt="Ribbon chart">
+                </figure>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Bog'lanish uchun</h2>
+            <p>Email: samandarsaidjanov@gmail.com</p>
+            <p>Telefon: +998 93 392 11 61</p>
+            <p>Telegram: <a href="https://t.me/s_saidjanov">@s_saidjanov</a></p>
+        </section>
+
+    </header>
+
+    <footer>
+        <p>&copy; 2024 Samandar Saidjanov</p>
+    </footer>
+    
+</body>
+
+    
+</html>
